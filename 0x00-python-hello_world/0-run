@@ -1,2 +1,2 @@
-#!/usr/bin/python3
-python hello.py
+#!/usr/bin/bash
+$PYFILE.py
