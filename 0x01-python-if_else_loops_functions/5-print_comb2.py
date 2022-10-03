@@ -4,4 +4,4 @@ for i in range (100):
     if i < 100:
         print("{:02d}".format(i), end=", ")
     else:
-        print("{d:}".format(i))
+        print("{:d}".format(i))
