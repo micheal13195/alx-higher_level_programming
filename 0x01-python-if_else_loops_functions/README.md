@@ -1,1 +1,4 @@
-Python function Readme file
+# If_elsif, Loops & Functions
+
+This directory has illustrative examples for the three
+concepts in python

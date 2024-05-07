@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-
-for i in range (100):
-    if i < 100:
-        print("{:02d}".format(i), end=", ")
+for number in range(99):
+    if number < 10:
+        toBePrinted = "0{:d}, ".format(number)
     else:
-        print("{:d}".format(i))
+        toBePrinted = "{:d}, ".format(number)
+    print(toBePrinted, end='')
+print("{:d}".format(99))

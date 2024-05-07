@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-
-for i in range (97, 123):
-    print("{:c}".format(i), end="")
+lower_alphabets = ""
+for i in range(97, 123):
+    lower_alphabets += chr(i)
+print("{:s}".format(lower_alphabets), end='')
