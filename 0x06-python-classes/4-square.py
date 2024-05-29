@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-"""
+
     Square - this program defines a square with some useful methods like
     __init__(), area() etc. It also handles of valuee exceptions upon
     object instantiations such as TypeError, and negative numbers.
@@ -47,5 +46,10 @@ class Square:
         if type(value) is not int:
             raise TypeError("size must be an integer")
         if value < 0:
-            raise ValueError("size must be >= 0")
+            raise ValueError("
+
+
+
+
+e must be >= 0")
         self.__size = value
