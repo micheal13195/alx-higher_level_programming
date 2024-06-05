@@ -3,4 +3,4 @@
 -- List only scores that are above or equal to 10 in descending order
 SELECT `score >= 10`, `name`
 FROM `second_table`
-ORDER BY `score` DESC; 
+ORDER BY `score >=10` DESC; 
