@@ -1,2 +1,3 @@
-let myVar;
-myVar = “JavaScript is amazing”;
+#!/usr/bin/mode
+const myVar = “JavaScript is amazing”
+console.log(myVar);
